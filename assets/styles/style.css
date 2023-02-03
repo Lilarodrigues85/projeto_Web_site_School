@@ -1,0 +1,262 @@
+ body{
+  min-height: 100vh;
+} 
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header{
+  background: url(/assets/imagens/Imagem_principal.png) no-repeat top;
+  background-size: 100% 500px;
+
+}
+
+header .container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+}
+
+header .container .menu{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+header .container .menu a{
+  color: white;
+}
+
+header .container .menu .logo {
+  max-width: 100%;
+  width: 247px;
+ 
+}
+
+header .container .menu .logo img{
+  max-width: 100%;
+}
+
+header .container .menu .menu2{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#dizeres_menu {
+  display: flex;
+  justify-content: center;
+}
+
+header .container .dizeres_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+header .container .dizeres_menu .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 182px;
+  height: 50px;
+  margin-top: 80px;
+  background-color:  rgba(39, 7, 245, 0.5);
+}
+
+header .container .dizeres_menu .btn a{
+  color: white;
+  font-size: 20px;
+}
+
+header .container .dizeres_menu .btn:hover{
+  background-color:  rgba(110, 89, 247, 0.5);
+}
+
+section .container2{
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section .container2 .cursos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+section .container2 .cursos h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+section .container2 .cursos p{
+  text-align: center;
+  font-size: 15px;
+}
+
+section .container3 {
+  display: flex;
+  gap: 27px;
+  margin-top: 60px;
+}
+
+section .container3 .inicial {
+  display: flex;
+  flex-direction: column;
+  background-color: #DAD2D2;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+section .container3 .inicial h5{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+section .container3 .inicial p{
+  text-align: center;
+}
+
+section .container3 .intermediario {
+  display: flex;
+  flex-direction: column;
+  background-color: #DAD2D2;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+section .container3 .intermediario h5{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+section .container3 .intermediario p{
+  text-align: center;
+}
+
+section .container3 .avancado {
+  display: flex;
+  flex-direction: column;
+  background-color: #DAD2D2;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+section .container3 .avancado h5{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+section .container3 .avancado p{
+  text-align: center;
+}
+
+section .container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .container4 .campos{
+  text-align: center;
+  margin-top: 80px;
+}
+
+section .container4 .campos h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+section .container4 .campos p{
+  text-align: center;
+  font-size: 15px;
+}
+
+section .container5 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 80px;
+}
+
+section .container5 .imagem1{
+  position: relative;
+}
+
+section .container5 .sa{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  
+}
+
+section .container5 .sa h1{
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  transition: 0.5s ease-in-out;  
+}
+
+section .container5 .sa h1:hover {
+  opacity: 1;
+}
+
+section .container5 .imagem2{
+  position: relative;
+}
+
+section .container5 .sbc{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  
+}
+
+section .container5 .sbc h1{
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  transition: 0.5s ease-in-out;  
+}
+
+section .container5 .sbc h1:hover {
+  opacity: 1;
+}
+section .container5 .imagem3{
+  position: relative;
+}
+
+section .container5 .scs{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  
+}
+
+section .container5 .scs h1{
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  transition: 0.5s ease-in-out;  
+}
+
+section .container5 .scs h1:hover {
+  opacity: 1;
+}
+
