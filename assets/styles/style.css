@@ -110,6 +110,8 @@ section .container3 {
   display: flex;
   gap: 27px;
   margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 section .container3 .inicial {
@@ -199,11 +201,14 @@ section .container5 .imagem1{
   position: relative;
 }
 
+section .container5 .imagem1 img{
+  border-radius: 10px;
+}
+
 section .container5 .sa{
   position: absolute;
   left: 10px;
   bottom: 10px;
-  
 }
 
 section .container5 .sa h1{
@@ -219,6 +224,10 @@ section .container5 .sa h1:hover {
 
 section .container5 .imagem2{
   position: relative;
+}
+
+section .container5 .imagem2 img{
+  border-radius: 10px;
 }
 
 section .container5 .sbc{
@@ -238,8 +247,13 @@ section .container5 .sbc h1{
 section .container5 .sbc h1:hover {
   opacity: 1;
 }
+
 section .container5 .imagem3{
   position: relative;
+}
+
+section .container5 .imagem3 img{
+  border-radius: 10px;
 }
 
 section .container5 .scs{
@@ -258,5 +272,130 @@ section .container5 .scs h1{
 
 section .container5 .scs h1:hover {
   opacity: 1;
+}
+
+section .container6 {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section .container6 .facilidades{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+section .container6 .facilidades h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+section .container6 .facilidades p{
+  text-align: center;
+  font-size: 15px;
+}
+
+section .container7 {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+section .container7 .edicao{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+section .container7 .edicao h3{
+  text-align: center;
+  text-transform: uppercase;
+} 
+
+section .container7 .edicao p{
+  text-align: center;
+}
+
+section .container7 .revelacao{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+section .container7 .revelacao h3{
+  text-align: center;
+  text-transform: uppercase;
+} 
+
+section .container7 .revelacao p{
+  text-align: center;
+}
+
+section .container7 .estudo{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+section .container7 .estudo h3{
+  text-align: center;
+  text-transform: uppercase;
+} 
+
+section .container7 .estudo p{
+  text-align: center;
+}
+
+section .container8 {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section .container8 .estudantes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+section .container8 .estudantes h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+section .container8 .estudantes p{
+  text-align: center;
+  font-size: 15px;
+}
+
+section .container9 {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section .container9 .estudante1 {
+  display: flex;
+  background-color: #DAD2D2;
+  width: 550px;
+}
+
+section .container9 img{
+  padding: 15px;
+  width: 65px;
+  height: 70px;
+}
+
+section .container9 p{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
 }
 
