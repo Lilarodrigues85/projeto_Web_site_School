@@ -475,8 +475,6 @@ section .container10 {
     background-size: 100% 800px;
     width: 100%;
     margin-top: 123px; 
-    /* margin-left: 29px;
-    margin-right: 29px; */
     border-radius: 15px;
     box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
 }
@@ -520,4 +518,31 @@ section .container10 .btn2:hover {
 footer .container11 {
   display: flex;
   flex-direction: column;
+  align-items: center; 
+  margin-top: 100px;
+}
+
+footer .rodape h4{
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 25px;
+}
+
+footer .rodape p{
+  text-align: center;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+footer .rodape .imagens_rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+footer .rodape .imagens_rodape img{
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 1.2%;  
 }
