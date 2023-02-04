@@ -473,9 +473,10 @@ section .container9 .estudante2 .estrela1{
 section .container10 {
     background-image: url(/assets/imagens/sala_de_aula.png);
     background-size: 100% 800px;
-    width: 1600px;
+    width: 100%;
     margin-top: 123px; 
-    margin-left: 29px;
+    /* margin-left: 29px;
+    margin-right: 29px; */
     border-radius: 15px;
     box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
 }
