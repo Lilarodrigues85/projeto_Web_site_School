@@ -9,9 +9,14 @@
 }
 
 header{
-  background: url(/assets/imagens/Imagem_principal.png) no-repeat top;
-  background-size: 100% 500px;
-  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
+  background: url(/assets/imagens/Imagem_principal.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  /* background-size: 100% 500px;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2); */
 }
 
 header .container{
@@ -63,7 +68,7 @@ header .container .dizeres_menu {
   align-items: center;
   text-align: center;
   color: white;
-  margin-top: 20px;
+  margin-top: 200px;
 }
 
 
@@ -74,7 +79,7 @@ header .container .dizeres_menu .btn{
   align-items: center;
   width: 182px;
   height: 50px;
-  margin-top: 80px;
+  margin-top: 150px;
   border-radius: 10px;
   background-color:  rgba(39, 7, 245, 0.5);
 }
